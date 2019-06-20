@@ -1,0 +1,48 @@
+!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
+
+      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+
+      <p> Chris is a dynamic entrepreneur whose leadership skills and dedication to teamwork allow him to be the versatile & innovative ____ of _________  . Previous to __________, Chris led the growth and sale of a former ____________ firm. As partner, the company experienced growth from $6MM to over $55MM in revenue in just under three years. His success follows him to __________ as the company continues its rapid expansion and growth of extremely talented people.</p>
+
+      <p> Chris is an accomplished and creative Operations professional. He is an expert at running large Start up firms/programs, disecting and delegating ____ to complex projects, and supervision of capturing key information to drive overall success. Nately is hands-on with each TopDevz engagement and is central to our communication and performance.</p>
+
+      <p>Chris brings over 25 years of Executive and operational Management  . anxd Sales and Marketing years of software development and engineering management experience. Before TopDevz, Chris enjoyed working at successful startups in Austin, Tx including one the first Search Engine Optimization Companies on the Internet as well as one of the largest precious metal and money reserves in The United States. Chris lives to build software and teams that reach required goals and produces outstanding products.
+
+      <p>fter graduating From The Full Stack Flex Web Developer program at Southern Methodist University in Dallas, Tx , Chris's passion for technology, ______ and interacting with people lead him to work for a large _________________ company, where he honed his communications skills in complex environments. As a technology addict, JC has found a happy home at _______ where she gets to enjoy both angles. People and Technology..</p>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
+</html>
