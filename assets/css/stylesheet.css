@@ -55,7 +55,7 @@ h3 {
   font-size: 22px;
 }
 
-/* header */
+/* Nav bar */
 
 #masthead {
   position: fixed;
@@ -64,7 +64,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #f8f9fa;
+  background: #666666;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -85,6 +85,21 @@ h3 {
 nav {
   float:right;
   height: 90px;
+  color: #ffffff;
+}
+
+.navbar-item {
+color: #ffffff;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #4aaaa5;
+}
+.navbar-item:hover {
+  color: #4aaaa5;
 }
 /* footer */
 footer {
@@ -213,5 +228,6 @@ input[type=submit] {
   border: 0 none;
 }
 #navbar-example2{
-  background: #4aaaa5;
+  
+  background-color: #666666;
 }
