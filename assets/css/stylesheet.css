@@ -90,6 +90,8 @@ nav {
 
 .navbar-item {
 color: #ffffff;
+padding-right: 25px;
+font-size: 18px;
 }
 
 .nav-link {
