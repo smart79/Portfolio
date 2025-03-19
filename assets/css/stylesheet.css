@@ -246,23 +246,24 @@ input[type=submit] {
 
   background-color: #666666;
 }
-/* Center everything in the #connect section */
+/* Center everything */
+/* Center everything */
 #connect {
-  text-align: center; /* Centers the "Connect with Me" heading */
+  text-align: center;
 }
 
-/* Ensure icons are properly sized and aligned */
+/* Ensure icons are aligned and spaced */
 #connect a {
-  display: inline-block; /* Keeps links inline while allowing size control */
-  margin: 10px; /* Adds space between icons */
+  display: inline-block;
+  margin: 10px;
 }
 
+/* Force all icons to be the exact same size while keeping proportions */
 #connect img {
-  width: 80px;  /* Ensures uniform width */
-  height: 80px; /* Ensures uniform height */
-  object-fit: contain; /* Prevents distortion */
-  vertical-align: middle; /* Keeps icons aligned */
-  border-radius: 10px; /* Optional rounded corners */
+  width: 80px;  /* Ensures all icons have the same width */
+  height: 80px; /* Ensures all icons have the same height */
+  object-fit: cover; /* Ensures they fill the space without stretching */
+  border-radius: 10px; /* Optional: Rounds the edges */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -270,4 +271,6 @@ input[type=submit] {
 #connect img:hover {
   transform: scale(1.1);
 }
+
+
 
