@@ -246,3 +246,24 @@ input[type=submit] {
 
   background-color: #666666;
 }
+/* Target the images inside the #connect div */
+#connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust spacing between icons */
+}
+
+/* Ensure all icons have the same size */
+#connect img {
+  width: 80px;  /* Sets a uniform width */
+  height: 80px; /* Sets a uniform height */
+  object-fit: contain; /* Ensures images don't get stretched */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add a slight hover effect */
+#connect img:hover {
+  transform: scale(1.1);
+}
