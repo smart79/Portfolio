@@ -246,24 +246,28 @@ input[type=submit] {
 
   background-color: #666666;
 }
-/* Target the images inside the #connect div */
+/* Center everything in the #connect section */
 #connect {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px; /* Adjust spacing between icons */
+  text-align: center; /* Centers the "Connect with Me" heading */
 }
 
-/* Ensure all icons have the same size */
+/* Ensure icons are properly sized and aligned */
+#connect a {
+  display: inline-block; /* Keeps links inline while allowing size control */
+  margin: 10px; /* Adds space between icons */
+}
+
 #connect img {
-  width: 80px;  /* Sets a uniform width */
-  height: 80px; /* Sets a uniform height */
-  object-fit: contain; /* Ensures images don't get stretched */
-  border-radius: 10px; /* Optional: Adds rounded corners */
+  width: 80px;  /* Ensures uniform width */
+  height: 80px; /* Ensures uniform height */
+  object-fit: contain; /* Prevents distortion */
+  vertical-align: middle; /* Keeps icons aligned */
+  border-radius: 10px; /* Optional rounded corners */
   transition: transform 0.3s ease-in-out;
 }
 
-/* Add a slight hover effect */
+/* Optional hover effect */
 #connect img:hover {
   transform: scale(1.1);
 }
+
